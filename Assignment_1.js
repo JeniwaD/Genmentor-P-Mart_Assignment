@@ -4,10 +4,11 @@ let theLargest = 0;
 //หาสมาชิกที่มีค่ามากที่สุด เป็นจำนวนเต็มบวก
 const largestNum = () => {
     for (let i = 0; i < jayArray.length; i++) {
-        if (jayArray[i] > theLargest)
+        if (jayArray[i] > theLargest) {
         theLargest = jayArray[i];
-    }
-    console.log('The lastgest number is ' + Math.floor(theLargest));
+        }
+    } 
+  console.log('The lastgest number is ' + Math.floor(theLargest));
 }
 
 largestNum(jayArray);
